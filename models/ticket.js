@@ -2,7 +2,7 @@ const mongoose = require("mongoose")
 const Schema = mongoose.Schema;
 
 const ticketSchema = new Schema({
-    id : String,
+    xid : String,
     queueId : String,
     description: String,
     sender: String,
